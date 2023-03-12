@@ -1,0 +1,154 @@
+.topbarContainer {
+  height: 50px;
+  width: 100% auto;
+  background: rgb(255, 68, 29);
+  background: linear-gradient(
+    90deg,
+    rgba(240, 96, 52, 0.945) 0%,
+    rgba(32, 241, 98, 0.925) 51%,
+    rgba(32, 87, 196, 0.925) 92%
+  );
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.topbarLeft {
+  margin-top: 10px;
+  flex: 1.5;
+}
+
+.logoImg {
+  transform: scale(110%);
+  padding-bottom: 5px;
+  margin-left: 40px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  
+}
+
+.topbarCenter {
+  flex: 2.3;
+  padding-left: 40px;
+  padding-right: 0px;
+}
+
+
+
+.assignmentContainer{
+  margin-top: 20px;
+  padding-bottom: 10px;
+  background-color: rgba(175, 175, 175, 0.603);
+  border-radius: 10px;
+}
+.assignmentContainer:hover{
+  background-color: rgba(11, 185, 197, 0.377);
+}
+.searchbar {
+  margin-left: 40px;
+  width: 70%;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+
+.searchIcon {
+  font-size: 20px !important;
+  margin-left: 10px;
+}
+
+.searchInput {
+  
+  border: none;
+  width: 70%;
+  margin-left: 10px;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.topbarRight {
+  flex: 1.3;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.topbarLinkHome {
+  margin-right: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  padding-left: 30px;
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+.topbarLinkHome:visited {
+  color: white;
+}
+
+.topbarLink {
+  margin-right: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.topbarLink:visited {
+  color: white;
+}
+.topbarLinks {
+  
+  text-decoration: none;
+}
+
+.topbarIcons {
+  display: flex;
+  
+}
+
+.topbarIconItem {
+  padding: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.topbarIconBadge {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.topbarImg {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+ 
+}
+
+.rightbarTitle{
+  padding-top: 40px;
+}

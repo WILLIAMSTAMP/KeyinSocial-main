@@ -1,0 +1,18 @@
+.feed{
+    flex:6;
+}
+
+.feedWrapper{
+    padding: 20px;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: calc(100vh - 50px);
+}
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background-color: grey;
+} 

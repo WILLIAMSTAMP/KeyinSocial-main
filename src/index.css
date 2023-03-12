@@ -1,0 +1,174 @@
+body{
+    overflow: hidden scroll;
+}
+
+@media screen and (max-width: 450px) {
+    .feed{
+        display:flex;
+        font-size:x-large
+    }
+    .feedWrapper{
+        justify-content:center;
+        margin-top:30px;
+        }
+
+    .topbar{
+        display: none;
+    }
+
+    .postUsername{
+        font-size:x-large
+    }
+
+    .postDate{
+        font-size:large;
+    }
+    
+    .shareOptionText{
+        font-size:xx-large
+    }
+.shareTop{
+    padding-top: 60px;
+height: 80px
+}
+
+.shareInput{
+    height: 60px;
+    font-size:xx-large
+}
+    .shareOptions{
+        width:100%;
+        padding-top:40px
+    }
+
+    .shareProfileImg{
+        height: 100px;
+        width: 100px;
+    }
+
+    .homeContainer{
+        display: flex;
+        justify-content: center;
+        font-size: x-large;
+        width:100%;
+
+    }
+    .feed{
+        font-size: x-large;
+    }
+    .rightbar{
+        display:none;
+        
+      }
+      .sidebar{
+          display:none;
+      }
+
+    .shareButton{
+    border: none;
+    padding: 7px;
+    margin-top: 100px;
+    border-radius: 5px;
+    background-color: rgb(0, 158, 0);
+    font-weight: 500;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+    height:80px;
+    width:140px;
+    font-size:x-large;
+    }
+
+    .share{
+        height: 300px;
+    }
+
+    .post{
+        font-size: xx-large;
+        
+    }
+
+    .postDate{
+        font-size: large;
+    }
+
+    .postUsername{
+        font-size:xx-large
+
+    }
+
+    .topbarContainer{
+        display: flex;
+        width: 100%;
+        justify-items:auto;
+        height:75px
+    }
+    .topbarCenter{
+        display: none;
+      }
+      .topbarRight{
+       display:flex;
+       justify-content: center;
+        
+      }
+
+      .topbarLinks{
+        display: none;
+      }
+  
+    .topbarIconItem{
+        padding: 40px;
+       
+    }
+
+    .topbarIconBadge{
+        font-size:large;
+        margin-top: 30px;
+        margin-right: 40px;
+        
+       
+    }
+    
+.topbarImg{
+    margin-right: 20px;
+    height:65px;
+    width:65px;
+    
+}
+
+.postCommentText{
+    font-size:x-large;
+}
+
+.likeIcon{
+    height:40px;
+    width:40px;
+    margin-right: 20px;
+}
+
+.postLikeCounter{
+    font-size:x-large
+}
+.sidebar{
+    display: none;
+
+ }
+
+ .sidebarWrapper{
+     display:none;
+ }
+ 
+ .dropdown-menu{
+    position:absolute
+}
+
+.svg_icons{
+    transform: scale(200%);
+
+}
+
+.topbarIcons{
+    margin-right: 160px;
+}
+
+};
